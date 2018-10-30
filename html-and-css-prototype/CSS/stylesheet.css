@@ -24,7 +24,101 @@ h1 {
 	text-align: center;
 }
 
-/* The following font information and color codes are provided for you.  They do not match the prototype exactly, but they are fine to use for the assignment and doing so does not count against you.  They are simply meant to help you save time.  We would like everyone to have as close to a pixel-perfect match to the prototype as possible.  If you do find a font/color that matches more precisely, please share it with the team so we can improve the activity for future applicants.  Thank you!  Happy coding!
+/* My Code */
+
+h3{
+	font-weight:normal;
+}
+
+h3,
+p {
+	color: #777;
+	font-size: 14px;
+}
+
+h3 em {
+	color: #EF5F3C;
+	font-style: normal;
+	font-weight: bold;
+}
+
+a {
+	font-style:italic;
+	color: #20A1D4;
+	font-size: 12px;
+}
+
+/* Inheriting font and styles for button elements */
+
+button {
+	border-radius: 4px;
+	font-weight:bold;
+	font-family: inherit;
+}
+
+.progress-bar {
+	background-color: #EF5F3C;
+	padding: 10px;
+	margin-top: 12px;
+	border: solid 2px #eaeaea;
+}
+
+p.input {
+	border: 2px solid lightgrey;
+	border-radius: 4px;
+	max-width: 100px;
+	padding: 8px;
+	font-weight:bold;
+}
+
+p.input em {
+	color:black;
+	font-style: normal;
+}
+
+.donateButton {
+	background-color: #1CBC2C;
+	color: white;
+	width: 100px;
+	padding: 8px;
+	font-size: 14px;
+}
+
+.options {
+padding: 10px;
+color:#777;
+font-size: 12px
+}
+
+/* Or h2 */
+.speech-bubble {
+	position: relative;
+	background: #424242;
+	border-radius: 4px;
+	color: white;
+	background-color: #424242;
+}
+
+/* Creating the speech bubble effect with a triangle */
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 35px solid transparent;
+	border-top-color: #424242;
+	border-bottom: 0;
+	margin-left: -10px;
+	margin-bottom: -10px;
+}
+
+/* The following font information and color codes are provided for you.  They do not match the prototype
+exactly, but they are fine to use for the assignment and doing so does not count against you.
+They are simply meant to help you save time.  We would like everyone to have as close to a pixel-perfect
+match to the prototype as possible.  If you do find a font/color that matches more precisely, please share
+it with the team so we can improve the activity for future applicants.  Thank you!  Happy coding!
 
 	FONTS:
 	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
